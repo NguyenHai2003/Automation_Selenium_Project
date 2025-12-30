@@ -15,17 +15,6 @@ import java.time.Duration;
 /**
  * BaseTest cho Web Browser testing
  * Sử dụng cho Web automation
- *
- * Ví dụ sử dụng:
- * <pre>
- * public class MyWebTest extends BaseTest {
- *     @Test
- *     public void testWebFeature() {
- *         WebUI.navigateToUrl("https://example.com");
- *         WebUI.clickElement(By.id("button"));
- *     }
- * }
- * </pre>
  */
 public class BaseTest {
 
